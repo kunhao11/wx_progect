@@ -1,0 +1,58 @@
+/* pages/hello/ajax.wxss */
+.father {
+  display: flex;
+  height: 50px;
+  background-color: antiquewhite;
+  line-height: 50px;
+  position: relative;
+}
+.oneson {
+  margin-left: 10px;
+}
+.twoson {
+  position: absolute;
+  left: 27%;
+  display: flex;
+}
+.twoson > view {
+  margin-left: 15px;
+}
+.last {
+  position: absolute;
+  right: 10px;
+}
+.list_one {
+  border: 1px solid seashell;
+  position: relative;
+}
+.list_one > image {
+  width: 30%;
+}
+.list_one :nth-child(2),
+.list_one :nth-child(3),
+.list_one :nth-child(4) {
+  position: absolute;
+  left: 35%;
+  font-size: 0.5rem;
+}
+.list_one :nth-child(2){
+  top: 10%;
+  font-size:0.9rem;
+}
+.list_one :nth-child(3){
+  top: 40%;
+}
+.list_one :nth-child(4){
+  top: 70%;
+}
+.click_Style{
+  border-bottom:0.23rem solid red;
+  height: 100%;
+}
+.top{
+  font-size:15px;
+  position:fixed;
+  background-color: aqua;
+  bottom: 1rem;
+  right: 0%;
+}

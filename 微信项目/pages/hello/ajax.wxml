@@ -1,0 +1,19 @@
+<!--pages/hello/ajax.wxml-->
+<view class="father">
+  <view class="oneson" bindtap="getmap">{{city}}</view>
+  <view class="twoson">
+    <view class="{{click_Style==1?'click_Style':' '}}" data-id="1" bindtap="click_Style">热映</view>
+    <view class="{{click_Style==2?'click_Style':' '}}" data-id="2" bindtap="click_Style">待映</view>
+    <view class="{{click_Style==3?'click_Style':' '}}" data-id="3" bindtap="click_Style">经典</view>
+  </view>
+  <!-- <img src="" alt="" sizes="" srcset=""> -->
+  <text class="last" >0</text>
+</view>
+<view wx:for="{{resul}}" wx:key="index" class="list_one">
+  <image mode="aspectFit"  src="{{item.cover}}" style="width: 235rpx; height: 303rpx; display: inline-block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+  
+<view style="width: 549rpx; height: 50rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">{{item.moviename}}</view>
+<view>主演：{{item.actors}}</view>
+<view>评分：{{item.score}}</view>
+</view>
+<view  class="top" bindtap="TOtop">回到顶部</view>

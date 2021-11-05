@@ -1,0 +1,8 @@
+/* pages/wx/wx.wxss */
+text{
+  text-align: center;
+  color: red;
+}
+view{
+  text-align: center;
+}

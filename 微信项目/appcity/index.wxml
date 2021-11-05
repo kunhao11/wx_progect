@@ -1,0 +1,39 @@
+<view class="city-list-container">
+  <view class="city-title">定位城市</view>
+  <view class="city-inline">
+    <text class="location-city">北京</text>
+  </view>
+  <view class="city-list">
+    <view class="city-left">
+      <scroll-view 
+          scroll-y="true" 
+          style="height:100vh"
+          scroll-with-animation="true"
+          enable-back-to-top="true">
+        <view class="city-group-item">
+            <view class="city-group-title">A</view>
+            <view class="city-fullname">
+              <text>朝阳区</text>
+            </view>
+            <view class="city-fullname">
+              <text>海淀区</text>
+            </view>
+            <view class="city-fullname">
+              <text>朝阳区</text>
+            </view>
+        </view>    
+      </scroll-view>
+    </view>
+    <view class="city-right">
+      <view class="py-item" >
+        <text>A</text>
+      </view>    
+      <view class="py-item" >
+        <text>B</text>
+      </view>    
+      <view class="py-item" >
+        <text>C</text>
+      </view>    
+    </view>
+  </view>
+</view>

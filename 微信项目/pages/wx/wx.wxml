@@ -1,0 +1,11 @@
+<!--pages/wx/wx.wxml-->
+<view>
+<text>
+姓名：{{name}}
+年龄：{{age}}
+生日：{{bir}}
+学校：{{sch}}
+</text>
+<map name=""  style="position: relative; left: 0rpx; top: 43rpx; width: 750rpx; height: 631rpx; display: block; box-sizing: border-box"></map>
+<camera  ></camera>
+</view>
